@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "markdownlint.config": {
+        "MD024": {
+            "siblings_only": true
+        },
+        "MD033": false,
+        "MD036": false,
+    },
+    "cSpell.words": [
+        "airalogy",
+        "aimd",
+    ],
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Please write the commit message in English."
+        }
+    ]
+}

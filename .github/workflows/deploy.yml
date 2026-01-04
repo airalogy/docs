@@ -2,8 +2,7 @@ name: Deploy VitePress to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -20,24 +19,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+
       - uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: npm
+
+      - uses: actions/configure-pages@v5
+
       - name: Install dependencies
-        run: npm install
-      - name: Set base path
-        run: |
-          if [[ "${{ github.event.repository.name }}" == *.github.io ]]; then
-            echo "BASE=/" >> "$GITHUB_ENV"
-          else
-            echo "BASE=/${{ github.event.repository.name }}/" >> "$GITHUB_ENV"
-          fi
+        run: npm ci
+
       - name: Build
         run: npm run docs:build
+        env:
+          BASE_PATH: /
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
+
   deploy:
     needs: build
     runs-on: ubuntu-latest

@@ -47,11 +47,17 @@ To help you get started quickly, once you register a valid Airalogy account (whi
   * The lab ID is the same as your User ID (so the lab ID is `alice`)
   * The lab name is `<Your User ID>'s Lab` (e.g., `alice's Lab`)
   * **Like User IDs, Lab IDs cannot be changed after creation**, while the lab name can be changed anytime in lab settings.
+  * In the current public version of Airalogy, each account can have up to **3 labs in total**, including this default lab.
 * Under that default lab, a default project:
 
   * The project ID is also the same as your User ID (so the project ID is `alice`)
   * The project name is `<Your User ID>'s Project` (e.g., `alice's Project`)
   * Similarly, **project IDs cannot be changed after creation**, while the project name can be changed anytime in project settings.
+
+If you manually create another lab later, Airalogy will also automatically create two default projects in that lab:
+
+* `public_protocols` - a public project for sharing protocols with other labs
+* `lab_protocols` - a private project for internal protocol sharing within the lab
 
 There are two types of projects: **private** and **public** (see the [Access Control](./access-control.md) section for details on permissions).
 

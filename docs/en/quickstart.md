@@ -40,6 +40,8 @@ A **Lab** is the highest-level organizational unit, and one lab can contain mult
 
 A **Project** is used to manage a specific research effort. Each project can contain multiple protocols. Each **Protocol** corresponds to a specific data collection/usage plan.
 
+For larger research efforts, Airalogy also supports creating a **single level of subprojects** under a project. A subproject is still a full project unit with its own members, protocols, settings page, and permalink, so you can split a large research effort by stage, module, or collaboration stream. In the current version, subprojects support only **one level of hierarchy** and cannot contain further subprojects.
+
 To help you get started quickly, once you register a valid Airalogy account (which corresponds to a new User ID, e.g., `alice`), the system will automatically create the following for you:
 
 * A default lab:

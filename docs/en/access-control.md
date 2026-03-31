@@ -30,7 +30,7 @@ On the **Airalogy** platform, you can invite users to a project and assign them 
 | **11. Delete their own Records**<br>(whether in their own or others’ Protocols) | ✅ | ✅ | ❌ <sup>3</sup> | ❌ <sup>3</sup> |
 | **12. Delete Records created by others** | ✅ | ✅ | ❌ | ❌ |
 
-- <sup>1</sup> In private projects, *Recorders* are allowed to create new Protocols to encourage participation and creativity.
+- <sup>1</sup> In private projects, *Recorders* can create new Protocols and can also reuse any Protocol they are allowed to read, including Protocols from the Hub, into the current Project. This is intended to encourage participation and creativity.
 - <sup>2</sup> The role of **Recorder** can be understood through the following analogy: in a private project, a **Protocol** is like a private questionnaire. The creator of the Protocol wants to distribute this questionnaire to all project members for completion, but does not want Recorders to see each other’s responses. Therefore, a Recorder can only view their own submitted content, but cannot see what other members have submitted. This is similar to a questionnaire used for collecting personal information—naturally, the creator would not want respondents to see each other’s answers, as that would result in a leak of personal information.
 - <sup>3</sup> For data-integrity reasons, *Collaborators* and *Recorders* cannot delete their own Records; they should contact the project **Owner** or **Manager** if deletion is needed.
 

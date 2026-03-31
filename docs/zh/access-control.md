@@ -25,7 +25,7 @@
 | 11. 删除自己记录的 Records（无论是在自己创建的 Protocol 中的还是他人创建的 Protocol 中的） | ✅ | ✅ | ❌ <sup>3</sup> | ❌ <sup>3</sup> |
 | 12. 删除他人记录的 Records | ✅ | ✅ | ❌ | ❌ |
 
-- <sup>1</sup> 在私有项目中，Recorder是允许创建新的Protocol的，这是为了鼓励Recorder参与到研究，并能将自己的创造力体现在新的Protocol中。
+- <sup>1</sup> 在私有项目中，Recorder 允许创建新的 Protocol，也允许将自己有读取权限的 Protocol（包括 Hub 中的 Protocol）reuse 到当前 Project。这是为了鼓励 Recorder 参与到研究，并能将自己的创造力体现在新的 Protocol 中。
 - <sup>2</sup> Recorder 角色的功能可以这样类比理解：在一个私有项目中，Protocol 相当于一份私有问卷。Protocol 的创建者希望将这份问卷分发给项目的所有成员填写，但又不希望 Recorder 查看他人填写的结果。因此，Recorder 只能查看自己填写的内容，而无法看到其他成员的填写结果。这就好比一份用于收集个人信息的问卷，问卷的创建者当然不会希望填写者之间互相看到彼此的答案，否则就会造成个人信息泄露。
 - <sup>3</sup> 在私有项目中，Collaborator和Recorder不能删除自己记录的Records，这是为了保护数据的完整性；并鼓励他们严谨对待自己提交的数据。如果他们一定要删除自己的记录，可以联系项目的Owner或Manager进行处理。
 

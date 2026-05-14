@@ -7,5 +7,11 @@ export default [
       { text: '永久链接', link: '/zh/permalinks' },
       { text: '访问控制', link: '/zh/access-control/' }
     ]
+  },
+  {
+    text: '进阶使用',
+    items: [
+      { text: '批量上传 CSV 记录', link: '/zh/record-bulk-import' }
+    ]
   }
 ]

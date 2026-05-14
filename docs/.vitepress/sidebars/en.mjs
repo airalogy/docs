@@ -7,5 +7,11 @@ export default [
       { text: 'Permalinks', link: '/en/permalinks' },
       { text: 'Access Control', link: '/en/access-control/' }
     ]
+  },
+  {
+    text: 'Advanced Usage',
+    items: [
+      { text: 'Bulk Upload CSV Records', link: '/en/record-bulk-import' }
+    ]
   }
 ]
